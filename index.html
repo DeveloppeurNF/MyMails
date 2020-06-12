@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mails</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="Messagerie">
+        <!-- Champs de recherche -->
+        <div id="search">
+            <p id="textmessagestotal">Messages total:</p>
+                <p id="NumberMessage"></p>
+                <input type="text" placeholder="search message" id="searchmessage">
+            <p class="Button">Search</p>
+        </div>
+        <!-- Champs de recherche -->
+
+        <!-- New Message -->
+        <div id="Newmessage">
+            <input id="inputNewmessage" type="text" value="" placeholder="new message">
+            <p id="ButtonAddMessage"   class="Button" >Add</p>
+        </div>
+        <!-- New Message -->
+        
+        <!-- ListMessages -->
+        <div id="ListMessages">
+            <div class="Message">
+                <img class="avatar" src="./Assets/avatar-1.jpg" alt="avatar">
+                <div class="divcontenue">
+                    <h4 class="Pseudo">Nom prenom</h4>
+                    <p class="MessageText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ratione, dolore inventore velit culpa recusandae distinctio, alias, harum voluptate fugit beatae! Doloremque, adipisci!</p>
+                </div>
+                <img class="trash" src="./Assets/trash.png" alt="trash">
+            </div>
+            <div class="Message">
+                <img class="avatar" src="./Assets/avatar-1.jpg" alt="avatar">
+                <div>
+                    <h4 class="Pseudo">Nom prenom</h4>
+                    <p class="MessageText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ratione, dolore inventore velit culpa recusandae distinctio, alias, harum voluptate fugit beatae! Doloremque, adipisci!</p>
+                </div>
+                <img class="trash" src="./Assets/trash.png" alt="trash">
+            </div>
+            <div class="Message">
+                <img class="avatar" src="./Assets/avatar-1.jpg" alt="avatar">
+                <div>
+                    <h4 class="Pseudo">Nom prenom</h4>
+                    <p class="MessageText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ratione, dolore inventore velit culpa recusandae distinctio, alias, harum voluptate fugit beatae! Doloremque, adipisci!</p>
+                </div>
+                <img class="trash" src="./Assets/trash.png" alt="trash">
+            </div>
+        </div>
+        <!-- ListMessages -->
+        
+
+    </div>
+
+    <!-- Import script -->
+    <script src="./script.js"></script>
+    <!-- Import script -->
+
+
+</body>
+</html>

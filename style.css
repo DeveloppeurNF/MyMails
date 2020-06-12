@@ -1,0 +1,107 @@
+body{
+    background-color: #F5F6FA;
+    display: flex;
+    justify-content: space-evenly;
+}
+#Messagerie{
+    width: 65vw;
+    background-color: #FFFFFF;
+}
+
+/* Search */
+#search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border:solid;
+    border-color: #EEEDEE;
+    border-width: 1;
+}
+#textmessagestotal{
+    margin-left:5px;
+}
+#NumberMessage{
+    margin-right: 10px;
+}
+#searchmessage{
+    width: 80%;
+    height: 30px; 
+}
+/* Search */
+
+
+/* New Message */
+
+#Newmessage{
+    border: solid;
+    border-top: transparent;
+    border-color: #EEEDEE;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+#inputNewmessage{
+    width: 80%;
+    height: 30px;
+}
+#ButtonAddMessage{
+    margin-right: 0px ;
+}
+
+
+/* New Message */
+
+/* List messages */
+
+.Message{
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-top: transparent;
+    border-color: #EEEDEE;
+    justify-content: space-around;
+}
+
+.avatar{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 2%;  
+}
+
+.Pseudo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.MessageText{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+
+.trash{
+    width: 25px;
+    margin: 2%;
+}
+/* List messages */
+
+.Button{
+border: solid;
+margin: 10px;
+color: #3498db;
+text-align: center;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+}
+.Button:hover{
+    background-color:#68bcff;
+}
+
